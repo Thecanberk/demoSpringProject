@@ -12,7 +12,6 @@ public class HelloController {
 
     @RequestMapping(value = "/helloWorld", method = RequestMethod.GET)
     public String getHelloWorld() {
-
         return "HelloWorld!";
     }
 
